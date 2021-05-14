@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <title>Site final curso html/css</title>
+</head>
+
+<body class="main-bg">
+    <input type="checkbox" id="close-menu" class="close-menu" role="button" aria-label="Close menu">
+    <label class="close-menu-label" for="close-menu" title="Close-menu"></label>
+    <aside class="menu">
+        <div class="main-content menu-content">
+            <h1><a href="#">LOGO</a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro-section">intro</a></li>
+                    <li><a href="#download-section">download</a></li>
+                    <li><a href="#classes">classes</a></li>
+                    <li><a href="#galeria">galeria</a></li>
+                    <li><a href="#contact">contato</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </aside>
+
+    <div id="intro-section" class="menu-space"></div>
+    <section class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>FFXIV abre o seu beta no PS5
+                </h2>
+                <p>
+                    Um dos melhores e mais populares MMO da atualidade, Final Fantasy XIV finalmente está disponível em
+                    sua
+                    aguardada versão para PlayStation 5!
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/undraw_video_game_night_8h8m.svg" alt="controle remoto de um vídeo game">
+            </div>
+        </div>
+    </section>
+    <div id="download-section" class="menu-space"></div>
+    <section class="white-bg section">
+        <div class="main-content download-content">
+            <div class="download-text-content">
+                <h3>O Download</h3>
+                <p>
+                    O download ocupa um pouco menos de 38 GB e permite experimentar o jogo sem precisar pagar pela
+                    assinatura da mensalidade. A ideia é que o Beta fique disponível até o lançamento oficial da versão
+                    final, o que ainda não tem uma data exata marcada para acontecer.
+                </p>
+                <p>
+
+                    Além de loadings mais velozes, a versão de PS5 de Final Fantasy XIV inclui taxa de quadros a 60 FPS
+                    estáveis, resolução nativa em 4K, áudio 3D e suporte a feedback háptico no DualSense. Você já tinha
+                    experimentado o game nas gerações anteriores? Vai participar do Beta no PS5? Comente a seguir o que
+                    você acha desse épico MMORPG.
+
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <section id='classes' class="classes main-bg section">
+        <div class="classes-content main-content">
+            <h2 class="grid-main-heading">classes</h2>
+            <p class="grid-description">Descrição</p>
+            <div class="grid">
+                <article>
+                    <h3 class="titulo3">Black mage</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus cumque doloribus iste dicta
+                        id. Quisquam, provident dolore quaerat harum, aliquid enim soluta odio eligendi libero quod
+                        sapiente labore eaque maxime.</p>
+                </article>
+                <article>
+                    <h3 class="titulo3">Red mage</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et optio earum a beatae itaque unde
+                        accusantium similique vel neque ut! Minus pariatur consectetur alias. Voluptatum tempore
+                        asperiores ipsa nemo quis!</p>
+                </article>
+                <article>
+                    <h3 class="titulo3">White mage</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et optio earum a beatae itaque unde
+                        accusantium similique vel neque ut! Minus pariatur consectetur alias. Voluptatum tempore
+                        asperiores ipsa nemo quis!</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <div id='galeria' class="section white-bg">
+        <div class="main-content galeria-formato grid">
+            <div class="grid-galeria"><img src="http://source.unsplash.com/random/360x360?r=1" alt="imagem aleatória">
+            </div>
+            <div class="grid-galeria">
+                <img src="http://source.unsplash.com/random/360x360?r=2" alt="imagem aleatória">
+            </div>
+            <div class="grid-galeria">
+                <img src="http://source.unsplash.com/random/360x360?r=3" alt="imagem aleatória">
+            </div>
+            <div class="grid-galeria">
+                <img src="http://source.unsplash.com/random/360x360?r=4" alt="imagem aleatória">
+            </div>
+            <div class="grid-galeria">
+                <img src="http://source.unsplash.com/random/360x360?r=5" alt="imagem aleatória">
+            </div>
+            <div class="grid-galeria">
+                <img src="http://source.unsplash.com/random/360x360?r=6" alt="imagem aleatória">
+            </div>
+        </div>
+    </div>
+    <section class="white-bg section">
+        <div class="responsive-table main-content">
+            <table>
+                <caption>Princing table</caption>
+                <thead>
+                    <tr>
+                        <th>title 1</th>
+                        <th>title 2</th>
+                        <th>title 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>content1</td>
+                        <td>content2</td>
+                        <td>content3</td>
+                    </tr>
+                    <tr>
+                        <td>content1</td>
+                        <td>content2</td>
+                        <td>content3</td>
+                    </tr>
+                    <tr>
+                        <td>content1</td>
+                        <td>content2</td>
+                        <td>content3</td>
+                    </tr>
+                    <tr>
+                        <td>content1</td>
+                        <td>content2</td>
+                        <td>content3</td>
+                    </tr>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>content3</td>
+                    </tr>
+                </tfoot>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <div id="contact" class="menu-space"></div>
+    <section class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>FFXIV abre o seu beta no PS5
+                </h2>
+                <p>
+                    Um dos melhores e mais populares MMO da atualidade, Final Fantasy XIV finalmente está disponível em
+                    sua
+                    aguardada versão para PlayStation 5!
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/undraw_video_game_night_8h8m.svg" alt="controle remoto de um vídeo game">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact me</legend>
+                    <div class="form-group">
+                        <label for="primeiro-nome">Nome</label>
+                        <input type="text" name="Primeiro nome" id="primeiro-nome" placeholder="Luís">
+                    </div>
+                    <div class="form-group">
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" name="sobrenome" id="sobrenome" placeholder="Carlos">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="email@email.com">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="coment">Comentário</label>
+                        <textarea name="coment" id="coment" cols="30" rows="10" placeholder="Seu comentário"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Enviar comentário</button>
+                    </div>
+                </fieldset>
+            </div>
+
+        </div>
+    </section>
+    <footer class="white-bg footer">
+        <p>Feito por Lucal. xD</p>
+    </footer>
+    <a class="back-to-top" href="#">TOP</a>
+</body>
+
+</html>
